@@ -28,7 +28,7 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-
+  text-align: center;
   clip-path: polygon(0 0, 100% 0, 100%75vh, 0 100%);
 }
 
@@ -41,20 +41,24 @@ body {
 .header__logo {
   height: 35px;
 }
-.header__text {
-  text-transform: uppercase;
-  color: #fff;
+.text-box {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.header__text {
+  text-transform: uppercase;
+  color: #fff;
   backface-visibility: hidden;
+  margin-bottom: 20px;
 }
 .header__main-text {
   display: block;
   font-weight: 400;
   font-size: 70px;
   letter-spacing: 30px;
+  margin-bottom: 16px;
   animation: moveInLeft 1s ease-in-out;
 }
 .header__sub-text {
@@ -85,4 +89,28 @@ body {
   100% {
     opacity: 1;
   }
+}
+.btn-white {
+  background-color: #fff;
+}
+
+.btn:visited,
+.btn:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777;
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
