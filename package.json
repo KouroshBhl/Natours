@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/KouroshBhl/Natours.git"
   },
-  "author": "kourosh baharloo",
+  "author": "Kourosh Baharloo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KouroshBhl/Natours/issues"
   },
-  "homepage": "https://github.com/KouroshBhl/Natours#readme"
+  "homepage": "https://github.com/KouroshBhl/Natours#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }
